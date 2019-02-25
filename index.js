@@ -7,9 +7,15 @@ function whisper(string){
 }
 
 function logShout(string){
-  console.log('string.toHaveBeenCalledWith');
+  console.log('string.toHaveBeenCalledWith')
 }
 
 function logWhisper(string){
-  console.log("string.toLowerCase");
+  console.log("string.toLowerCase")
+}
+
+function sayHiToGrandma(string){
+  if (string.toLowerCase) {
+    return "I can't hear you!"
+  }
 }
