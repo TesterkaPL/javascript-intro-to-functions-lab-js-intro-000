@@ -7,7 +7,7 @@ function whisper(string){
 }
 
 function logShout(string){
-  return console.log(string.toHaveBeenCalledWith())
+  return console.log(string.andCallThrough())
 }
 
 function logWhisper(string){
