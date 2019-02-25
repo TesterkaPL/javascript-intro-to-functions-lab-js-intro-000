@@ -7,7 +7,7 @@ function whisper(string){
 }
 
 function logShout(string){
-  return console.log(string.andCallThrough())
+  return console.log(string.toAllCaps())
 }
 
 function logWhisper(string){
